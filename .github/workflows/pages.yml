@@ -29,7 +29,7 @@ jobs:
       - name: Extract MakeyWorld
         run: |
           mkdir site
-          unzip -o MakeyWorld-GitHub.zip -d site
+          unzip -q MakeyWorld-Diagnostico.zip -d site
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
